@@ -1,0 +1,61 @@
+p,h1,h2,h3,h4,h5,h6 {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+.flex {
+  display: flex;
+}
+
+.direction-column {
+  flex-direction: column;
+}
+
+.direction-row {
+  flex-direction: row;
+}
+
+.gap-2 {
+  gap: 2px;
+}
+.gap-8 {
+  gap: 8px;
+}
+.gap-16 {
+  gap: 16px;
+}
+.gap-24 {
+  gap: 24px;
+}
+.align-center {
+  align-items: center;
+}
+.justify-center {
+  justify-content: center;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.grid {
+  display: grid;
+}
+.card {
+  border: 1px solid rgb(177, 175, 175);
+  padding: 20px;
+}
+.main {
+  padding: 10px 20px;
+}
+.custom-table,.custom-table tr td ,.custom-table th{
+  table-layout: fixed;
+  border: 1px solid rgb(177, 175, 175);
+  border-collapse: collapse;
+}
+.custom-table td , .custom-table th {
+  padding: 4px 8px;
+}
+dialog {
+  background: #f1f1f1;
+}
